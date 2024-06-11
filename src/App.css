@@ -1,0 +1,68 @@
+
+.reactContainer, .reduxContainer {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 2em;
+  width: 350px;
+}
+
+.reactContainer {
+  background-color: antiquewhite;
+  border: 1px solid dimgray;
+}
+
+.reactTitle, .reduxTitle {
+  font-family: monospace;
+}
+
+.labelText, .valueText {
+  font-family: fantasy;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.valueText {
+  color: white;
+}
+
+.btnContainer, .reduxBtnContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btnMinus, .btnPlus {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 40px;
+  width: 60px;
+}
+
+.btnMinus, .decrementBtn {
+  margin-right: 20px;
+}
+
+.reduxContainer {
+  background-color: darkslategray;
+  border: 1px solid black;
+}
+
+.reduxTitle {
+  color: white;
+}
+
+.decrementBtn, .incrementBtn {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px;
+}
+
+
